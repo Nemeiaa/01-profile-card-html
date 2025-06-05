@@ -1,0 +1,72 @@
+body {
+  background: #fffbe9;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.profile-card {
+  background: #fff;
+  border: 2px solid #d6b373;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  box-shadow: 0 4px 16px rgba(125, 40, 39, 0.07);
+  /* Center all text inside the card */
+  text-align: center;
+}
+
+/* Reduce top and bottom margin for headings and paragraph for a compact look */
+h1, h2, p, .profile-card h1, .profile-card h2, .profile-card p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+/* Make the main heading large and set its color */
+h1 {
+  font-size: 40px;
+  color: #7D2827;
+}
+
+/* Make the subheading slightly smaller and use a lighter color */
+h2 {
+  font-size: 28px;
+  color: #817975;
+}
+
+/* Set paragraph font size and increase line spacing for readability */
+p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+/* Style the profile image to fit nicely in the card */
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 0; /* keep square, remove if you want circle */
+}
+
+/* Remove bullet points and add spacing to the list */
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+
+.profile-card ul li {
+  margin-bottom: 12px;
+}
+
+/* Optional: Style links for better appearance */
+.profile-card ul li a {
+  text-decoration: none;
+  color: #7D2827;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.profile-card ul li a:hover {
+  color: #b85c38;
+}
